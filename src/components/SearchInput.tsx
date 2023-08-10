@@ -23,7 +23,7 @@ const SearchInput = () => {
         <InputLeftElement children={<BsSearch />} />
         <Input
           ref={ref}
-          borderRadius={20}
+          borderRadius={7}
           placeholder="Search games..."
           variant="filled"
         />
